@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <!-- Hello Walker -->
+    <!-- </br> -->
+    <!-- I am {{ name }} from {{ place }}. -->
+
+    <h1>Welcome to the text analyzer.</h1>
+    <h2> Enter Text Below</h2>
+    <form mathod='get' action='/analyze'>
+        <textarea name="text" style="width: 1094px; height: 170px;"></textarea><br>
+
+        <input type="checkbox" name="removepunc">Remove Punctuation <br>
+        <input type="checkbox" name="fullcaps">UpperCase<br>
+        <input type="checkbox" name="newlineremover">Remove NewLine<br>
+        <input type="checkbox" name="extraspaceremover">Remove Extra Space<br>
+        <input type="checkbox" name="charcount">Total Character<br>
+
+        <br>
+        <button type="submit">Analyse Text</button>
+    </form>
+</body>
+</html>
